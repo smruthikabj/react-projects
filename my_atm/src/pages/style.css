@@ -1,0 +1,284 @@
+.home-container {
+    width: 640px;
+    height: 120px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.home-container h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.home-container button {
+    margin: auto;
+    width: 250px;
+    height: 35px;
+    background: #93ceec;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.home-container button:hover {
+    background: #67c8f9;
+}
+
+.menu-container {
+    width: 640px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.menu-container h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu-container h2 {
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu-container button {
+    margin: auto;
+    width: 220px;
+    height: 35px;
+    background: #93ceec;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-container button:hover {
+    background: #67c8f9;
+}
+
+.pin-container {
+    width: 640px;
+    height: 250px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.pin-container h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.pin-container h2 {
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.pin-container input {
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.pin-container input:focus {
+    outline: none;
+    border-color: #553f9a;
+}
+
+.pin-container button {
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    background: #93ceec;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pin-container button:hover {
+    background: #67c8f9;
+}
+
+.balance-container {
+    width: 640px;
+    height: 150px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.balance-container h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.balance-container button {
+    margin: auto;
+    width: 250px;
+    height: 35px;
+    background: #93ceec;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.balance-container button:hover {
+    background: #67c8f9;
+}
+
+.withdraw-container {
+    max-width: 250px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.withdraw-container h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.withdraw-container h2 {
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.withdraw-container input {
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.keypad button {
+  font-size: 1.2rem;
+  padding: 12px;
+  background: #93ceec;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.keypad button:hover {
+  background: #67c8f9;
+}
+
+.clear {
+  grid-column: span 3;
+  background: #f66;
+  color: white;
+}
+
+.withdraw-container .last {
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    background: #93ceec;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.withdraw-container .last:hover {
+  background: #67c8f9;
+}
+
+.home-container .welcome {
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(100vw);
+        opacity: 1;
+    }
+}
+
+.home-container .welcome h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    animation: slideRight 4s ease-in-out forwards;
+}
